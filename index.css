@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.navigation {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+}
+
+.navigation a {
+    color: black;
+}
+
+a li {
+    /* background-color: rgb(133, 133, 133); */
+    padding: 5px 20px;
+    margin: 0 20px;
+    color: whitesmoke;
+}
+
+a li:hover {
+    background-color: rgb(133, 133, 133, 0.7);
+}
+
+img {
+    width: 100%;
+}
+  /* Banner */
+  
+  #banner {
+    position: relative;
+    height: 750px;
+    padding: 0 25%;
+    background: url("https://c2.staticflickr.com/2/1841/44694540361_2fc5e63847_b_d.jpg") center center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  
+  #banner:before { 
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+  
+  #banner * {
+    position: relative; 
+  }
+
+  #banner h1 {
+    padding-top: 280px;
+    padding-bottom:0px;
+    font-size: 80px;
+    color: white;
+  }
+
+  
+#banner p {
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+}
