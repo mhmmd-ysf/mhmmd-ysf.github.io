@@ -4,11 +4,11 @@ body {
 }
 
 header {
-    background-color: rgb(36, 36, 36);
-    position: fixed;
+    /* background-color: rgb(36, 36, 36); */
     width: 100%;
     z-index: 10;
     box-sizing: border-box;
+    position: fixed;
     top: 0;
 }
 
@@ -16,12 +16,21 @@ header {
     margin: 10px auto;
     padding: 0 20px;
     text-align: center;
+    display: inline-block;
 }
 
 .navigation li {
     display: inline-block;
-    width: 100px;
     margin: 5px;
+    background-color: rgb(133, 133, 133);
+}
+
+.nav1 {
+    width: 180px;
+}
+
+.nav2 {
+    float: right;
 }
 
 .navigation a {
@@ -38,44 +47,56 @@ a li {
 a li:hover {
     background-color: rgb(133, 133, 133, 0.7);
 }
-
+ 
 img {
-    width: 100%;
+     width: 100%;
 }
   /* Banner */
-  
-  #banner {
+   
+   #banner {
+    background: url("https://scontent-sin2-1.xx.fbcdn.net/v/t31.0-8/278197_3754458907182_1067156613_o.jpg?_nc_cat=102&_nc_ht=scontent-sin2-1.xx&oh=1dd3b06a13dad7ed02ea58ba0512799b&oe=5D01643E")fixed no-repeat;
+    width: 100%;
+    height: 750px; 
     position: relative;
-    height: 750px;
-    padding: 0 25%;
-    background: url("https://c2.staticflickr.com/2/1841/44694540361_2fc5e63847_b_d.jpg") center center no-repeat;
+    display: inline-block;
     background-size: cover;
-    text-align: center;
-  }
-  
-  #banner:before { 
-    position: absolute;
+}
+
+#banner:before { 
+    background-color: rgba(0, 0, 0, 0.5);
     content: "";
-    left: 0;
+    position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5)
-  }
+}
+  /* punya banner:before
   
   #banner * {
     position: relative; 
   }
+ */
+
+
 
   #banner h1 {
-    padding-top: 280px;
-    padding-bottom:0px;
+    position: relative;
+    padding: 280px 0 0 0;
     font-size: 80px;
     color: white;
+    text-align: center;
   }
 
   
 #banner p {
+    position: relative;
     color: white;
-    line-height: 1.5;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.cc {
+    background-color: blue;
+    width: 100%;
 }
