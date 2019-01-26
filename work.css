@@ -1,0 +1,153 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(36, 36, 36);
+}
+
+header {
+    /* background-color: rgb(36, 36, 36); */
+    width: 100%;
+    z-index: 10;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+.navigation {
+    margin: 10px auto;
+    padding: 0 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 5px;
+    background-color: rgb(133, 133, 133);
+}
+
+.nav1 {
+    width: 180px;
+}
+
+.nav2 {
+    float: right;
+}
+
+.navigation a {
+    color: rgb(36, 36, 36);
+}
+
+a li {
+    /* background-color: rgb(133, 133, 133); */
+    padding: 5px 20px;
+    margin: 0 20px;
+    color: rgb(36, 36, 36);
+}
+
+a li:hover {
+    background-color: rgb(133, 133, 133, 0.7);
+}
+ 
+img {
+     width: 100%;
+}
+  /* Banner */
+   
+   #banner {
+    background: url("https://farm8.staticflickr.com/7833/46158566574_206e1a73ea_b_d.jpg")fixed no-repeat;
+    background-position-y: -180px;
+    width: 100%;
+    height: 750px; 
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+}
+
+#banner:before { 
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+  #banner h1 {
+    position: relative;
+    padding: 280px 0 0 0;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+  }
+
+#banner p {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content-left{
+    display: flex; 
+    padding: 50px; 
+    background: whitesmoke;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.content-left p{
+    color: rgb(36, 36, 36);
+}
+.content-left h1{
+    color: black;
+}
+.content-right{
+    display: flex;
+    flex-direction: row-reverse; 
+    padding: 50px; 
+    background: rgb(36, 36, 36);
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-right p, h1{
+    color: whitesmoke;
+}
+.image-holder{
+    text-align: center; 
+    width: 450px;
+}
+.description{ 
+    width: 60%;
+
+}
+.image{
+    max-width: 75%;
+    max-height: 75%;
+    display: block;
+    margin: 10px auto;  
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.back   {
+    width: 100%;
+    float: right;
+    background-color: whitesmoke;
+}
+
+.back img {
+    height: 100px;
+    width: 100px;
+    float: right;
+    position: relative;
+}
