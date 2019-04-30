@@ -59,7 +59,7 @@ img {
   /* Banner */
    
    #banner {
-    background: url("https://farm5.staticflickr.com/4908/31942956247_c3b1d2f252_k_d.jpg")fixed no-repeat;
+    background: url("resources/hit/hitbg.JPG")fixed no-repeat;
     background-position-y: -100px;
     width: 100%;
     height: 800px; 
@@ -205,30 +205,6 @@ h1{
 .cc:hover {
     opacity: 0;
     transition: 0.5s ease;
-}
-
-.c1 {
-    background-image: url("https://farm8.staticflickr.com/7398/26841525002_9c98117e16_k_d.jpg");
-    background-position-x: -280px;
-    background-size: cover;
-}
-
-.c2 {
-    background-image: url("https://farm8.staticflickr.com/7094/7260492868_90acddc7e8_o_d.jpg");
-    background-position-x: -75px;
-    background-size: cover;
-}
-
-.c3 {
-    background-image: url("https://scontent-sin2-1.xx.fbcdn.net/v/t1.0-9/1391509_10200667052868639_242254428_n.jpg?_nc_cat=100&_nc_ht=scontent-sin2-1.xx&oh=b9afb7c790456cd4d718966be9c04a2a&oe=5CBB428D");
-    background-position-x: -75px;
-    background-size: cover;
-}
-
-.c4 {
-    background-image: url("https://scontent-sin2-1.xx.fbcdn.net/v/t1.0-9/10922699_10204205531648397_8669311358099570810_n.jpg?_nc_cat=103&_nc_ht=scontent-sin2-1.xx&oh=45dfd684355c29f5b063fe6c1bd75594&oe=5CB3325B");
-    background-size: cover;
-    background-position-x: -120px;
 }
 
 input[type="text"] {

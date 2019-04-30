@@ -55,7 +55,7 @@ img {
   /* Banner */
    
    #banner {
-    background: url("https://farm8.staticflickr.com/7833/46158566574_206e1a73ea_b_d.jpg")fixed no-repeat;
+    background: url("resources/work/workbg.jpeg")fixed no-repeat;
     background-position-y: -180px;
     width: 100%;
     height: 750px; 
